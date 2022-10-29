@@ -5,17 +5,16 @@
   .menu-link.current {
     color: var(--accent-color);
     position: relative;
-  }
-  
-  .menu-link.current::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  display: flex;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      display: flex;
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      border-radius: 2px;
+      }
   }
 
   .page-header {
