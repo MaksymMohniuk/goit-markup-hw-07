@@ -2,19 +2,19 @@
     padding: 94px 0;
   }
   
-  .hidden-section {
+  .about__list {
     display: flex;
     gap: 30px;
   }
-  .hidden-section-item {
+  .about__item {
     flex-basis: calc((100% - 90px) / 4);
   }
   
-  .hidden-section-icon {
+  .about__icon {
   margin: 25px 100px;
   }
    
-  .hidden-section-item-title {
+  .about__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -22,12 +22,12 @@
     margin-bottom: 10px;
   }
   
-  .section-description {
+  .about__description {
     line-height: 1.71;
     color: var(--text-color-secondary);
   }
   
-  .hidden-section-block {
+  .about__block {
   width: 270px;
   height: 120px;
   background-color: #f5f4fA;

@@ -1,8 +1,8 @@
-.link-logo.current {
+.logo-current {
     color: var(--accent-color);
   }
   
-  .menu-link.current {
+  .menu__link-current {
     color: var(--accent-color);
     position: relative;
     &::after {
@@ -17,10 +17,10 @@
       }
   }
 
-  .page-header {
+  .header {
     border-bottom: 1px solid #ececec;
   }
 
-  .header-wrap {
+  .header__wrap {
     display: flex;
   }

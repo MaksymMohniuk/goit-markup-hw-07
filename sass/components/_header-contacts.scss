@@ -1,12 +1,12 @@
-.header-contacts {
+.contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
     gap: 50px;
   }
 
-.menu-link-mail,
-.menu-link-tel {
+.contacts__mail,
+.contacts__tel {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -30,17 +30,17 @@
 }
 }
 
-.menu-link-mail {
+.contacts__mail {
   margin-right: 30px;
 }
 
-.header-contacts-item {
+.contacts__item {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-.header-contacts-icon {
+.contacts__icon {
     fill: currentColor;
     margin-right: 10px;
   }
